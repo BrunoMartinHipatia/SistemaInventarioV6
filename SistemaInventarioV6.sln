@@ -1,9 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventarioV6", "SistemaInventarioV6\SistemaInventarioV6.csproj", "{162525E8-A1BF-4924-8147-0FE01BD21D27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.AccesoDatos", "SistemaInventario.AccesoDatos\SistemaInventario.AccesoDatos.csproj", "{B6BD71D8-AA5C-4501-8E37-2B1BC4E55D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{FFE43B04-5831-458A-8437-BC3DF95E79F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Utilidades", "SistemaInventario.Utilidades\SistemaInventario.Utilidades.csproj", "{8C97B6EA-B6DE-4B31-A63F-D1336BB9A6F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,18 @@ Global
 		{162525E8-A1BF-4924-8147-0FE01BD21D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162525E8-A1BF-4924-8147-0FE01BD21D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162525E8-A1BF-4924-8147-0FE01BD21D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BD71D8-AA5C-4501-8E37-2B1BC4E55D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BD71D8-AA5C-4501-8E37-2B1BC4E55D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BD71D8-AA5C-4501-8E37-2B1BC4E55D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BD71D8-AA5C-4501-8E37-2B1BC4E55D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE43B04-5831-458A-8437-BC3DF95E79F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE43B04-5831-458A-8437-BC3DF95E79F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE43B04-5831-458A-8437-BC3DF95E79F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE43B04-5831-458A-8437-BC3DF95E79F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C97B6EA-B6DE-4B31-A63F-D1336BB9A6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C97B6EA-B6DE-4B31-A63F-D1336BB9A6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C97B6EA-B6DE-4B31-A63F-D1336BB9A6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C97B6EA-B6DE-4B31-A63F-D1336BB9A6F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
